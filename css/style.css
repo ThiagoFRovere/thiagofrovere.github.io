@@ -1,0 +1,83 @@
+ul{
+    list-style-type: none;
+    margin: 100px;
+    padding: 10px;
+}
+li{
+    border: 1px solid gainsboro;
+}
+
+body{
+    background-color: black;
+    width: 50%;
+    margin: 5px auto;
+}
+
+.corpo{
+    height: 1360px;
+    width: 800px;
+    text-align: center;
+    background-color: white;
+}
+
+.tabelaEmenta{
+    height: 850px;
+    width: 800px;
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.titulo{
+    background-color:gainsboro;
+    font-size: 25px;
+    text-align: center;
+}
+
+.subtitulo{
+    background-color: Gainsboro;
+    font-size: 20px;
+    text-align: center; 
+    margin-top: 5px;   
+}
+
+.cabecario{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bjetivo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border: 2px solid red; 
+}
+
+.formacao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.experiencia{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conhecimentos{
+    border-top: 10px;
+    margin-bottom: 10px;  
+}
+.fim{
+    background-color:Gainsboro;
+    padding: 10px;
+   
+}
