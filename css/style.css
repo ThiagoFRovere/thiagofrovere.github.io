@@ -2,41 +2,66 @@
 body{
     background-color: black;
     width: 50%;
-    margin: 5px auto;
+    margin: auto;
 }
 .corpo{
-    height: 1360px;
+    height: 1130px;
     width: 600px;
     text-align: center;
     background-color: white;
 }
 .titulo{
+    border: 1px solid gray;
     background-color:gainsboro;
     font-size: 25px;
     text-align: center;
+    padding: 10px;
 }
 .cabecario{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .subtitulo{
+    border: 1px solid gray;
     background-color: Gainsboro;
     font-size: 20px;
     text-align: center; 
-    margin-top: 5px;   
+    padding: 3px; 
+    margin-bottom: 10px;
+    margin-top: 10px;  
 }
 .bjetivo{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    height: 10px;
 }
-.formacao{
+#texto{
+    margin: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
-.formacao{
-    margin-top: 10px;
-    margin-bottom: 10px;
+/*------------------------------------------*/
+.formacao1{
+    display: inline-block;
 }
+.formacao2{
+    display: inline-block;
+    margin-left: 20px;
+}
+.formacao3{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px; 
+    margin-right: 60px;
+}
+.formacao4{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px; 
+    margin-right: 50px;
+}
+/*------------------------------------------*/
 .links{
     text-decoration: none;
     color: red;
@@ -55,6 +80,7 @@ body{
     margin-bottom: 10px;  
 }
 .fim{
+    border: 1px solid gray;
     background-color:Gainsboro;
     padding: 10px;
 }
