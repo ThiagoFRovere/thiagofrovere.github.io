@@ -150,3 +150,4 @@ sr.reveal('.anim7', {
   distance: '1500px',
   origin: 'left',
 });
+
