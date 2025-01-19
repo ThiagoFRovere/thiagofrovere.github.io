@@ -72,10 +72,10 @@ main{
 /*-------------------------------------------------------------------*/
 .whatsapp{
     position:fixed;
-    width:100px;
-    height:100px;
-    bottom:40px;
-    right:10px;
+    width:70px;
+    height:90px;
+    bottom:0px;
+    right:20px;
     text-align:center;
     align-items: center;
     justify-content: center;
@@ -84,8 +84,25 @@ main{
     background-color: transparent;
 }
 .whatsapp img{   
-    width:100px;
-    height:100px;
+    width:80px;
+    height:80px;
+}
+.topicon{
+    position:fixed;
+    bottom: 40px;
+    left: 20px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    z-index:1000;
+    text-decoration: none;
+    background-color: transparent;
+}
+.topicon img{   
+    color: var(--white-color);
+    height: 30px;
+    width: 30px
+    
 }
 
 /*-------------------------------------------------------------------*/
@@ -917,7 +934,23 @@ main .contacts .container-contacts .container-box .contact-email input[type="sub
 }
 /**********************************************/
 @media (max-width: 870px){
-    
+    .whatsapp{
+        width:50px;
+        height:50px;
+        bottom:20px;
+    }
+    .whatsapp img{   
+        width:50px;
+        height:50px;
+    }
+    .topicon{
+        bottom: 40px;
+        left: 15px;
+    }
+    .topicon img{   
+        height: 20px;
+        width: 20px
+    }
     header .logo a{
         font-size: 25px;
     }
@@ -1304,6 +1337,22 @@ main .contacts .container-contacts .container-box .contact-email input[type="sub
 }
 /**********************************************/
 @media (max-width: 490px){
+    .whatsapp{
+        width:40px;
+
+    }
+    .whatsapp img{   
+        width:40px;
+        height:40px;
+    }
+    .topicon{
+        bottom: 40px;
+        left: 10px;
+    }
+    .topicon img{   
+        height: 15px;
+        width: 15px
+    }
     header .logo a{
         text-decoration: none;
         font-size: 25px;
